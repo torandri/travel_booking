@@ -30,3 +30,19 @@ En pratique ce serait :
 	- cors :  pour l'autorisation de la communication entre frontend et backend
 	- dotenv : stockage des informations sensibles dans un fichier <b>.ienv</b> (Protection des mots de passe, clés API, tokens, configurations sensibles)
 	- nodemon : relancement automatique du serveur lors d'un modification d'un fichier
+
+---
+# Outils
+## dotenv
+- permet de stocker config
+- éviter le code en dur
+- sécuriser DB + port
+
+## Express
+- serveur HTTP
+- routes API
+- middleware
+
+## fetch()
+- requête HTTP depuis navigateur
+- récupération JSON
